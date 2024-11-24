@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Chris\\source\\repos\\KataTests\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10801529-0ABD-45AA-8EF3-7D0DD8F799BA}|KataTests\\KataTests.csproj|c:\\users\\chris\\source\\repos\\katatests\\katatests\\katamethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10801529-0ABD-45AA-8EF3-7D0DD8F799BA}|KataTests\\KataTests.csproj|solutionrelative:katatests\\katamethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10801529-0ABD-45AA-8EF3-7D0DD8F799BA}|KataTests\\KataTests.csproj|c:\\users\\chris\\source\\repos\\katatests\\katatests\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10801529-0ABD-45AA-8EF3-7D0DD8F799BA}|KataTests\\KataTests.csproj|solutionrelative:katatests\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25022FA4-90E7-4DD5-B875-6B940FF7D18E}|KataMethodTests\\KataMethodTests.csproj|c:\\users\\chris\\source\\repos\\katatests\\katamethodtests\\unittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25022FA4-90E7-4DD5-B875-6B940FF7D18E}|KataMethodTests\\KataMethodTests.csproj|solutionrelative:katamethodtests\\unittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UnitTests.cs",
+              "DocumentMoniker": "C:\\Users\\Chris\\source\\repos\\KataTests\\KataMethodTests\\UnitTests.cs",
+              "RelativeDocumentMoniker": "KataMethodTests\\UnitTests.cs",
+              "ToolTip": "C:\\Users\\Chris\\source\\repos\\KataTests\\KataMethodTests\\UnitTests.cs",
+              "RelativeToolTip": "KataMethodTests\\UnitTests.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwCYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T17:49:58.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KataMethods.cs",
+              "DocumentMoniker": "C:\\Users\\Chris\\source\\repos\\KataTests\\KataTests\\KataMethods.cs",
+              "RelativeDocumentMoniker": "KataTests\\KataMethods.cs",
+              "ToolTip": "C:\\Users\\Chris\\source\\repos\\KataTests\\KataTests\\KataMethods.cs",
+              "RelativeToolTip": "KataTests\\KataMethods.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T18:03:15.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Chris\\source\\repos\\KataTests\\KataTests\\Program.cs",
+              "RelativeDocumentMoniker": "KataTests\\Program.cs",
+              "ToolTip": "C:\\Users\\Chris\\source\\repos\\KataTests\\KataTests\\Program.cs",
+              "RelativeToolTip": "KataTests\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T18:01:56.92Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

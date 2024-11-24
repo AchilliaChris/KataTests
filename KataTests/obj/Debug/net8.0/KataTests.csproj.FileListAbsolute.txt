@@ -1,0 +1,14 @@
+C:\Users\Chris\source\repos\KataTests\KataTests\bin\Debug\net8.0\KataTests.exe
+C:\Users\Chris\source\repos\KataTests\KataTests\bin\Debug\net8.0\KataTests.deps.json
+C:\Users\Chris\source\repos\KataTests\KataTests\bin\Debug\net8.0\KataTests.runtimeconfig.json
+C:\Users\Chris\source\repos\KataTests\KataTests\bin\Debug\net8.0\KataTests.dll
+C:\Users\Chris\source\repos\KataTests\KataTests\bin\Debug\net8.0\KataTests.pdb
+C:\Users\Chris\source\repos\KataTests\KataTests\obj\Debug\net8.0\KataTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chris\source\repos\KataTests\KataTests\obj\Debug\net8.0\KataTests.AssemblyInfoInputs.cache
+C:\Users\Chris\source\repos\KataTests\KataTests\obj\Debug\net8.0\KataTests.AssemblyInfo.cs
+C:\Users\Chris\source\repos\KataTests\KataTests\obj\Debug\net8.0\KataTests.csproj.CoreCompileInputs.cache
+C:\Users\Chris\source\repos\KataTests\KataTests\obj\Debug\net8.0\KataTests.dll
+C:\Users\Chris\source\repos\KataTests\KataTests\obj\Debug\net8.0\refint\KataTests.dll
+C:\Users\Chris\source\repos\KataTests\KataTests\obj\Debug\net8.0\KataTests.pdb
+C:\Users\Chris\source\repos\KataTests\KataTests\obj\Debug\net8.0\KataTests.genruntimeconfig.cache
+C:\Users\Chris\source\repos\KataTests\KataTests\obj\Debug\net8.0\ref\KataTests.dll
