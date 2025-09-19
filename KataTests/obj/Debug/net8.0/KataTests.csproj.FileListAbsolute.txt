@@ -12,3 +12,4 @@ C:\Users\Chris\source\repos\KataTests\KataTests\obj\Debug\net8.0\refint\KataTest
 C:\Users\Chris\source\repos\KataTests\KataTests\obj\Debug\net8.0\KataTests.pdb
 C:\Users\Chris\source\repos\KataTests\KataTests\obj\Debug\net8.0\KataTests.genruntimeconfig.cache
 C:\Users\Chris\source\repos\KataTests\KataTests\obj\Debug\net8.0\ref\KataTests.dll
+C:\Users\Chris\source\repos\KataTests\KataTests\obj\Debug\net8.0\KataTests.sourcelink.json

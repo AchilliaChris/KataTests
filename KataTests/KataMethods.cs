@@ -45,7 +45,7 @@ namespace KataTests
         {
             if (board[a - 1].HasValue && board[b - 1].HasValue && board[c - 1].HasValue)
                 if ((board[a - 1] == board[b - 1]) && board[b - 1] == board[c - 1])
-                    return board[b];
+                    return board[b - 1];
                 else return null;
             return null;
         }
@@ -69,7 +69,7 @@ namespace KataTests
             for (int i = 0; i < 3; i++)
             {
                 int k = j + i;
-                row += board[k].HasValue ? board[k] : (k + 1).ToString().ToCharArray()[0];
+                row += board[k].HasValue ? board[k] : ' ' ;
                 row += "|";
             }
             return row;

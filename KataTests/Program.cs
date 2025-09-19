@@ -16,7 +16,7 @@ for (int i = 0; i < 10; i++)
     {
         nextPosition = kataMethods.GetPosition();
     }
-    Console.WriteLine($"Checking pos {nextPosition} for {c}");
+    Console.WriteLine($"Checking pos {nextPosition + 1} for {c}");
     kataMethods.board[nextPosition] = c;
     var displayBoard = kataMethods.DisplayBoard();
     foreach (string displayLine in displayBoard) {
