@@ -5,13 +5,13 @@ Console.WriteLine("Noughts and Crosses, or Tic-Tac-Toe");
 Console.WriteLine("------------------------------------------------");
 Console.WriteLine();
 KataMethods kataMethods = new KataMethods();
-for (int i = 0; i < 10; i++)
+for (int i = 0; i < 9; i++)
 {
     char c;
     if (i % 2 == 0)
         c = 'X';
     else c = 'O';
-    int nextPosition = kataMethods.GetPosition();   
+    int nextPosition = kataMethods.GetPosition();
     while (kataMethods.board[nextPosition].HasValue)
     {
         nextPosition = kataMethods.GetPosition();
@@ -19,14 +19,20 @@ for (int i = 0; i < 10; i++)
     Console.WriteLine($"Checking pos {nextPosition + 1} for {c}");
     kataMethods.board[nextPosition] = c;
     var displayBoard = kataMethods.DisplayBoard();
-    foreach (string displayLine in displayBoard) {
+    foreach (string displayLine in displayBoard)
+    {
         Console.WriteLine(displayLine);
-            }
+    }
     var result = kataMethods.CheckBoard();
     if (result.HasValue)
     {
-        Console.WriteLine($"The winning player is {result} in {i} goes");
+        Console.WriteLine($"The winning player is {result} in {i + 1} goes");
         break;
     }
+    else if (i == 8)
+    {
+        Console.WriteLine("The game is a draw");
+    }
+
 }
 Console.ReadLine();
