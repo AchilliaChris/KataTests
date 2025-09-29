@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KataMethodTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3656ca2fbc8e75b0d39d533689ca62a1bccdc183")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84040e33813af886038478558c33f9e9de64f4b7")]
 [assembly: System.Reflection.AssemblyProductAttribute("KataMethodTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KataMethodTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
