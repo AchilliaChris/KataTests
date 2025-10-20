@@ -8,28 +8,32 @@ KataMethods kataMethods = new KataMethods();
 for (int i = 0; i < 9; i++)
 {
     char c;
+    // Alternate between X and O
     if (i % 2 == 0)
         c = 'X';
     else c = 'O';
     int nextPosition = kataMethods.GetPosition();
+    // Ensure position is not already taken
     while (kataMethods.board[nextPosition].HasValue)
     {
         nextPosition = kataMethods.GetPosition();
     }
     Console.WriteLine($"Checking pos {nextPosition + 1} for {c}");
     kataMethods.board[nextPosition] = c;
+    // Display the board
     var displayBoard = kataMethods.DisplayBoard();
     foreach (string displayLine in displayBoard)
     {
         Console.WriteLine(displayLine);
     }
+    // Check for a winner
     var result = kataMethods.CheckBoard();
     if (result.HasValue)
     {
         Console.WriteLine($"The winning player is {result} in {i + 1} goes");
         break;
     }
-    else if (i == 8)
+    else if (i == 8) // Last move and no winner
     {
         Console.WriteLine("The game is a draw");
     }

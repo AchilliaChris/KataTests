@@ -17,19 +17,19 @@ namespace KataTests
 
     public class KataMethods : IKataMethods
     {
-        private static Random Random = new Random();
-        public char?[] board = new char?[9];
-        private List<int[]> lines = new List<int[]>
+        private static Random Random = new Random(); // a static so we get random values
+        public char?[] board = new char?[9]; // positions 0-8 represent board positions 1-9
+        private List<int[]> lines = new List<int[]> // all possible winning lines
         {
-            new int[]{1,2,3 }, new int[]{4,5,6, }, new int[]{7,8,9 },
-            new int[]{1,4,7 }, new int[]{2,5,8 }, new int[]{3,6,9 },
-            new int[]{1,5,9 }, new int[]{3,5,7 }
+            new int[]{1,2,3 }, new int[]{4,5,6}, new int[]{7,8,9},
+            new int[]{1,4,7}, new int[]{2,5,8}, new int[]{3,6,9},
+            new int[]{1,5,9}, new int[]{3,5,7}
         };
         public int GetPosition()
         {
             return Random.Next(9);
         }
-
+        // Check the board for a winner
         public char? CheckBoard()
         {
             foreach (var line in lines)
@@ -41,6 +41,7 @@ namespace KataTests
             }
             return null;
         }
+        // Check if positions a, b, c are a winning line
         public char? checkForWin(int a, int b, int c)
         {
             if (board[a - 1].HasValue && board[b - 1].HasValue && board[c - 1].HasValue)
@@ -49,6 +50,7 @@ namespace KataTests
                 else return null;
             return null;
         }
+        // Display the board as a list of strings
         public List<string> DisplayBoard()
         {
             var boardDisplay = new List<string>();
@@ -63,6 +65,7 @@ namespace KataTests
             }
             return boardDisplay;
         }
+        // Get a row string for row starting at index j
         public string GetRow(int j)
         {
             string row = "|";
